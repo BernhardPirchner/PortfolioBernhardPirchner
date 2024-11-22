@@ -7,7 +7,7 @@
    */
   const name = 'Bernhard Pirchner';
   const introduction =
-    'Ich bin ein Schüler an der HTL Saalfelden und habe mich für den Informatik Zweig entschieden';
+    'Ich bin ein Schüler an der HTL Saalfelden und habe mich für den Informatik Zweig entschieden.';
   const avatar = '/dz-portfolio/images/PB.JPG'; // Please enter the absolute path (including subpaths)
   const about =
     'Hallo! Ich bin ein Schüler aus Österreich und befinde mich im Abschlussjahr an der HTL Saalfelden, im Zweig Informatik. In meiner Freizeit engagiere ich mich nicht nur für meine Klasse – ich wurde kürzlich zum Klassensprecher gewählt – sondern auch für die Landjugend, wo ich als Leiter aktiv bin. Es ist mir wichtig, Verantwortung zu übernehmen und gemeinsam mit anderen etwas zu bewegen. Zusätzlich arbeite ich samstags bei Billa+, um meine praktischen Fähigkeiten im Bereich Kundenservice zu erweitern und mehr über die Arbeitswelt zu lernen. Ich bin motiviert, ständig Neues zu lernen und meine Fähigkeiten in der Informatik weiter auszubauen, um in Zukunft in der Branche erfolgreich zu sein.';
@@ -35,27 +35,35 @@
   ];
   const works = [
     {
-      title: "Dampuzakura's Website",
+      title: "Website der Jausenstation Höllgrub",
       description:
-        'This website is my portfolio site. I created this site to introduce myself and my works. I hope you enjoy it!',
-      url: 'https://dampuzakura.github.io',
-      linkText: 'Visit',
+        'Für die Jausenstation Höllgrub wurde eine ansprechende Website mit WordPress erstellt und auf WordPress.com gehostet. Die Seite vermittelt das charmante Ambiente und informiert übersichtlich über das Angebot und die Kontaktmöglichkeiten.',
+      url: 'https://hoellgrub.at/',
+      linkText: 'Besuchen',
     },
     {
-      title: "Dampuzakura's Blog",
+      title: 'Weekend Planner',
       description:
-        'I am currently creating a blog site. I will write articles about various things there. Please look forward to it!',
+        'Das Projekt Weekend Planner entstand als eigenständig entwickeltes Konzept im Rahmen des Softwareprojekts unserer vorletzten Klasse. Ziel der Anwendung ist es, die Planung von Wochenendaktivitäten zu vereinfachen und eine intuitive Plattform für Nutzer bereitzustellen, um Termine und Freizeitgestaltung effizient zu organisieren.\nIch habe die Idee für dieses Projekt selbst entwickelt und umgesetzt, wobei im Backend das Framework VueJS verwendet wurde, um eine reaktive und moderne Benutzererfahrung zu gewährleisten. Dieses Projekt bot mir die Möglichkeit, meine Fähigkeiten in der Softwareentwicklung und der eigenständigen Projektgestaltung zu vertiefen.',
+      url: 'https://github.com/BernhardPirchner/WeekendPlanner',
+      linkText: 'Besuchen',
+    },
+    {
+      title: "Diplomarbeit",
+      description:
+        'Im Rahmen unserer Diplomarbeit entwickeln wir, ein Team aus drei Personen, eine Softwarelösung für die Liftgesellschaft Zauchensee. Das Hauptziel des Projekts ist die Entwicklung eines Systems, das die effiziente Erstellung, Bearbeitung und Speicherung von Dienstplänen über mehrere Standorte hinweg ermöglicht.\nZusätzlich werden optionale Funktionen wie eine Alert-Funktion zur Übermittlung wichtiger Informationen, die Anzeige des aktuellen Arbeitsplatzes der Mitarbeiter sowie Informationen zu Gefahrenstoffen und Reinigungsmitteln in Betracht gezogen.\nDas Projekt befindet sich derzeit in der Entwicklungsphase. Meine Hauptverantwortung liegt in der Konzeption und Implementierung des Backends, das die zentralen Daten und Prozesse verwaltet.',
+      url: 'https://github.com/DaAlfi/Diplomarbeit',
+      linkText: 'Besuchen',
+    },
+    {
+      title: "Website der historischen Bauernschützenkompanie Hüttau",
+      description:
+        'Aktuell arbeite ich an der Entwicklung einer Website für die historische Bauernschützenkompanie Hüttau. Das Projekt wurde auf Anfrage der Kompanie initiiert, die eine moderne Online-Plattform benötigt, um ihre Geschichte, Werte und Aktivitäten einer breiteren Öffentlichkeit zugänglich zu machen. Ziel ist es, eine ansprechende und benutzerfreundliche Website zu gestalten, die sowohl historische Inhalte als auch aktuelle Informationen präsentiert. \nDas Projekt befindet sich derzeit in der Umsetzungsphase.',
       url: '',
       linkText: '',
     },
-    {
-      title: 'DZ Quick Card',
-      description:
-        'DZ Quick Card is a simple web application that allows you to create a business card. You can create a card with your name and a message. Please try it!',
-      url: 'https://dampuzakura.github.io/dz-quick-card',
-      linkText: 'Try it!',
-    },
   ];
+
   const experiences = [
     {
       title: 'Praktikum bei der Liebherr-Werk Bischofshofen GmbH',
@@ -78,44 +86,24 @@
   ];
   const socials = [
     {
-      name: 'dampuzakura.github.io',
-      url: 'https://dampuzakura.github.io',
-      icon: '', // If the icon field is empty, a link icon will be automatically assigned.
+      name: 'Mail',
+      url: 'bernhard.pirchner@htl-saalfelden.at',
+      icon: 'i-simple-icons:gmail', // If the icon field is empty, a link icon will be automatically assigned.
     },
     {
-      name: '@dampuzakura@fedibird.com',
-      url: 'https://fedibird.com/@dampuzakura',
-      icon: 'i-simple-icons:mastodon',
-    },
-    {
-      name: '@dampuzakura',
-      url: 'https://github.com/dampuzakura',
+      name: 'Github',
+      url: 'https://github.com/BernhardPirchner',
       icon: 'i-simple-icons:github',
     },
     {
-      name: '@dampuzakura',
-      url: 'https://x.com/dampuzakura',
-      icon: 'i-simple-icons:x',
+      name: 'Instagram',
+      url: 'https://www.instagram.com/berni.0_o/',
+      icon: 'i-simple-icons:instagram',
     },
     {
-      name: '@dampuzakura.github.io',
-      url: 'https://bsky.app/profile/dampuzakura.github.io',
-      icon: 'i-simple-icons:bluesky',
-    },
-    {
-      name: '@dampuzakura@fedimovie.com',
-      url: 'https://fedimovie.com/@dampuzakura',
-      icon: 'i-simple-icons:peertube',
-    },
-    {
-      name: '@dampuzakura@fedisnap.com',
-      url: 'https://fedisnap.com/@dampuzakura',
-      icon: 'i-simple-icons:pixelfed',
-    },
-    {
-      name: '@dampuzakura@misskey.io',
-      url: 'https://misskey.io/@dampuzakura',
-      icon: 'i-simple-icons:misskey',
+      name: 'Snapchat',
+      url: 'https://www.snapchat.com/add/berni.pirch05?share_id=LY1e9VzaOHQ&locale=de-AT',
+      icon: 'i-simple-icons:snapchat',
     },
   ];
 </script>
@@ -203,6 +191,7 @@
     </h2>
     <ul class="grid grid-cols-1 gap-4 text-lg">
       {#each works as work}
+        <br>
         <li>
           <h3 class="mb-2 text-2xl font-bold">{work.title}</h3>
           <p>{work.description}</p>
