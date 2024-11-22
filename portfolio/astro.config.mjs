@@ -7,8 +7,8 @@ import robotsTxt from 'astro-robots-txt';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://dampuzakura.github.io/dz-portfolio', // Please enter the URL where you will host your website.
-  base: '/dz-portfolio', // If you are hosting your website at a subpath, enter it here.
+  site: 'https://bernhard-pirchner.netlify.app/', // Please enter the URL where you will host your website.
+  base: '/portfolio', // If you are hosting your website at a subpath, enter it here.
   integrations: [
     UnoCSS({
       injectReset: true,
