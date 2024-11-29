@@ -8,7 +8,7 @@
   const name = 'Bernhard Pirchner';
   const introduction =
     'Ich bin ein Schüler an der HTL Saalfelden und habe mich für den Informatik Zweig entschieden.';
-  const avatar = '/dz-portfolio/images/PB.JPG'; // Please enter the absolute path (including subpaths)
+  const avatar = 'portfolio/public/images/pb.jpg'; // Please enter the absolute path (including subpaths)
   const about =
     'Hallo! Ich bin ein Schüler aus Österreich und befinde mich im Abschlussjahr an der HTL Saalfelden, im Zweig Informatik. In meiner Freizeit engagiere ich mich nicht nur für meine Klasse – ich wurde kürzlich zum Klassensprecher gewählt – sondern auch für die Landjugend, wo ich als Leiter aktiv bin. Es ist mir wichtig, Verantwortung zu übernehmen und gemeinsam mit anderen etwas zu bewegen. Zusätzlich arbeite ich samstags bei Billa+, um meine praktischen Fähigkeiten im Bereich Kundenservice zu erweitern und mehr über die Arbeitswelt zu lernen. Ich bin motiviert, ständig Neues zu lernen und meine Fähigkeiten in der Informatik weiter auszubauen, um in Zukunft in der Branche erfolgreich zu sein.';
   const place = 'Österreich';
