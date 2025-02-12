@@ -31,6 +31,7 @@
     { name: 'GitHub', icon: 'i-simple-icons:github' },
     { name: 'Windows', icon: 'i-simple-icons:windows' },
     { name: 'Linux', icon: 'i-simple-icons:linux' },
+    { name: 'Docker', icon: 'i-simple-icons:docker' },
     { name: 'etc...', icon: '' },
   ];
   const works = [
@@ -42,10 +43,10 @@
       linkText: 'Besuchen',
     },
     {
-      title: 'Weekend Planner',
+      title: 'BärBotX',
       description:
-        'Das Projekt Weekend Planner entstand als eigenständig entwickeltes Konzept im Rahmen des Softwareprojekts unserer vorletzten Klasse. Ziel der Anwendung ist es, die Planung von Wochenendaktivitäten zu vereinfachen und eine intuitive Plattform für Nutzer bereitzustellen, um Termine und Freizeitgestaltung effizient zu organisieren.\nIch habe die Idee für dieses Projekt selbst entwickelt und umgesetzt, wobei im Backend das Framework VueJS verwendet wurde, um eine reaktive und moderne Benutzererfahrung zu gewährleisten. Dieses Projekt bot mir die Möglichkeit, meine Fähigkeiten in der Softwareentwicklung und der eigenständigen Projektgestaltung zu vertiefen.',
-      url: 'https://github.com/BernhardPirchner/WeekendPlanner',
+        'Das Projekt BärBotX befasst sich mit der Entwicklung einer Steuerungssoftware für einen mBot, bestehend aus einem Frontend und einem Spring Boot-Backend. In Zusammenarbeit mit drei weiteren Klassenkameraden wurde eine benutzerfreundliche Lösung zur Steuerung des Roboters realisiert. Meine Hauptverantwortung lag in der Implementierung des Backends, das die Verarbeitung der Steuerbefehle, die API-Anbindung sowie die Systemlogik umfasst. Durch eine strukturierte Entwicklung und enge Abstimmung im Team wurde eine effiziente und stabile Steuerungslösung geschaffen.',
+      url: 'https://github.com/BernhardPirchner/BaerBotX',
       linkText: 'Besuchen',
     },
     {
@@ -86,9 +87,9 @@
   ];
   const socials = [
     {
-      name: 'Mail',
-      url: 'bernhard.pirchner@htl-saalfelden.at',
-      icon: 'i-simple-icons:gmail', // If the icon field is empty, a link icon will be automatically assigned.
+      name: 'pirchnerbernhard@gmail.com',
+      url: 'mailto:pirchnerbernhard@gmail.com',
+      icon: 'i-simple-icons:gmail',
     },
     {
       name: 'Github',
@@ -96,14 +97,9 @@
       icon: 'i-simple-icons:github',
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/berni.0_o/',
-      icon: 'i-simple-icons:instagram',
-    },
-    {
-      name: 'Snapchat',
-      url: 'https://www.snapchat.com/add/berni.pirch05?share_id=LY1e9VzaOHQ&locale=de-AT',
-      icon: 'i-simple-icons:snapchat',
+      name: 'XING',
+      url: 'https://www.xing.com/search/members?keywords=Bernhard%20Pirchner',
+      icon: 'i-simple-icons:xing',
     },
   ];
 </script>
